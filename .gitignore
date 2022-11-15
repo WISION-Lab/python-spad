@@ -1,2 +1,2 @@
 # Sorted in ascending order
-*.pyc
+__pycache__
