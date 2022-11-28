@@ -37,9 +37,8 @@ def parse_args():
         help="an input directory containing a .json file and one or more .mat files",
     )
     parser.add_argument(
-        "output_pathname", help="an output filename with extension .npz"
+        "output_pathname", help="an output filename with extension .npy"
     )
-    parser.add_argument("-q", "--quiet", help="don't print status updates")
     return parser.parse_args()
 
 
