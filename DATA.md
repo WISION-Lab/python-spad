@@ -4,7 +4,7 @@
 
 The `dark` directory countains dark count data. The data in this folder has all been converted to `.npy` or `.npy`, but the array shapes and data types vary (information about this data's format was not documented in the original dataset).
 
-The `sequences` directory contains one sub-directory for each sequence. For example, `sequences/0505-bicycle-1` contains all data for the `0505-bicycle-1` sequence. In each sequence directory there is a `binary.npy.gz` file containing all SPAD frames. A sequence directory may also contain other related files - for example, an `.mp4` video captured by a conventional camera.
+The `sequences` directory contains two subdirectories: `qbp` (Quanta Burst Photograph sequences) and `vision` (sequences collected for evaluating downstream vision tasks). `qbp` and `vision` contain one subdirectory for each data sequence. For example, `sequences/vision/0505-bicycle-1` contains all data for the `0505-bicycle-1` sequence. In each sequence directory there is a `binary.npy.gz` file containing all SPAD frames. A sequence directory may also contain other related files - for example, an `.mp4` video or a `.txt` file describing data collection details.
 
 The `misc` directory contains miscellaneous video files.
 
