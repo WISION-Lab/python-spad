@@ -41,7 +41,7 @@ def parse_args():
         help="an input directory containing one or more .bin files (possibly nested)",
     )
     parser.add_argument(
-        "output_pathname", help="an output filename with extension .npz"
+        "output_pathname", help="an output filename with extension .npy"
     )
     parser.add_argument(
         "-s",
